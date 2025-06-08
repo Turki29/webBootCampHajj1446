@@ -1,0 +1,154 @@
+body{
+    background-color: palegoldenrod;
+    margin: 0;
+}
+
+.header
+{
+    background-color: brown;
+    
+    
+    
+}
+.navbar
+{
+    
+    gap: 15px;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navbar a:hover {
+    background-color: rgb(152, 37, 37);
+}
+
+.logo
+{
+  color: white;
+  margin: 0;
+    
+}
+
+.coffee-image
+{
+    width: 500px;
+}
+
+.hero-container
+{
+    margin: 35px 15px;
+    
+    
+    
+    justify-content: space-between;
+    
+}
+
+.d-flex{
+    display: flex;
+    
+}
+
+.details
+{
+    padding: 35px;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.text-white{
+    color: white;
+}
+
+.coffee-card
+{
+    background-color: brown;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+.coffee-card-img{
+     /* background: url("./images/macha.avif"); */
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat; 
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.coffee-card-title
+{
+    margin: 0;
+    font-weight: bolder;
+}
+
+.coffee-card-desc
+{
+    font-weight: lighter;
+}
+
+.card-separator{
+    width: 100%;
+}
+
+.cards-container
+{
+    
+    gap: 15px;
+    flex-wrap: wrap;
+    
+}
+
+.purchase-button-container
+{
+    margin-top: 5px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.purchase-button-container button {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 0;
+    
+}
+
+.navbar.d-flex{
+    font-family: arial;
+
+}
+
+.footer {
+    background-color: brown;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding:  0 35px;
+}
+
+footer ul {
+    list-style: none;
+    
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
