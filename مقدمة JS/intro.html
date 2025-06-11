@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    
+</head>
+<body>
+    
+
+    <script>
+        function Print(msg)
+        {
+            console.log(msg);
+        }
+
+        Print("السلام عليكم")
+        Print(123)
+        
+
+        student = { name : "basel", age : 22, gpa : 4.7, car : "malibu"}
+
+        Print(student.car)
+
+        printingFunction = Print;
+
+        additionFunction = () => {
+            let a = 1;
+            let b = 2;
+            return a + b;
+        }
+
+        Print(additionFunction());
+
+
+
+    </script>
+</body>
+</html>
